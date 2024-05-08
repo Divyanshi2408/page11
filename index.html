@@ -6,8 +6,6 @@
     <title>benifits</title>
     <link href="https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/css/pesto-cf-f9e792274dadb3a463f338453764d9.webflow.52fd57711.min.css" rel="stylesheet" type="text/css" />
   
-    <link href="https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa59a_Favicon.png" rel="shortcut icon" type="image/x-icon" />
-    <link href="https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa59b_Webclip.png" rel="apple-touch-icon" />
   
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10937566914"></script>
@@ -48,7 +46,7 @@
         }
 
         /* Initially hide the Join Us page content */
-        #value {
+        #value2 {
             display: none;
         }
     </style>
@@ -57,18 +55,19 @@
 <body>
     <!-- Button container for About and Join Us -->
     <div id="buttonContainer">
-        <button class="button" onclick="showAbout()">Atendee</button>
-        <button class="button" onclick="showJoinUs()">Host</button>
+        <button class="button" style="background-image: linear-gradient(to right, #746544,#9b8149, #D49B0B); color: #ffffff; text-decoration: none;  border-radius: 5px; cursor: pointer;" onclick="showAbout()">Attendee</button>
+        <button class="button" style="background-image: linear-gradient(to right, #746544,#9b8149, #D49B0B); color: #ffffff; text-decoration: none;  border-radius: 5px; cursor: pointer;"onclick="showJoinUs()">Host</button>
     </div>
 
     <!-- About page content -->
-    <div id="values" class="section-4 values" >
+    <div id="values2" class="section-4 values2" >
         <div class="container">
             <div class="values-container">
                 <div class="values-content-container">
-                    <h2 class="h2">Benifits of host</h2>
-                    <div class="subtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto itaque voluptates excepturi inventore tempore  <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam architecto quod <br/>processes, decision making &amp; recruiting.</div>
-                    <div class="values-cta-container">
+                    <h2 class="h2" style="color:#D49B0B">Benifits of Host</h2>
+                    <div class="subtext">Open your hearts and home to curious travelers seeking the magic of an Indian wedding. Become a host and create lasting memories, forge genuine connections, and celebrate your culture in a way that goes beyond the ordinary.
+                    </div>
+                    <!-- <div class="values-cta-container">
                         <a id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a367-0340374a" href="#" target="_blank" class="cta large w-inline-block">
                             <div class="cta-text">Join Us</div>
                             <div class="cta-icon w-embed"><svg width="100%" height="100%" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +82,7 @@
                                 <div class="cta-overlay-right green"></div>
                             </div>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
                 <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a37a-0340374a" class="values-slider-wrapper">
                     <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a37b-0340374a" class="values-slider-container">
@@ -92,12 +91,13 @@
                             <div class="values-slider-mask w-slider-mask">
                                 <div class="values-slide w-slide">
                                     <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a37f-0340374a" class="features-grid-item">
-                                        <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a380-0340374a" class="feature-image-wrapper owenership"><img src="https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa51c_image%20155.webp" loading="lazy" width="500" height="500" alt="" srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6SrtMm6KxfaT0Y7jMo9zb5_YvLRWMBc45Ng&s 500w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa51c_image%2520155-p-800.png 800w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa51c_image%20155.webp 1080w"
+                                        <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a380-0340374a" class="feature-image-wrapper owenership"><img src="https://i.insider.com/5e986bc5d5873a5542041193?width=600&format=jpeg&auto=webp" loading="lazy" width="500" height="500" alt="" srcset="https://i.insider.com/5e986bc5d5873a5542041193?width=600&format=jpeg&auto=webp 500w, https://i.insider.com/5e986bc5d5873a5542041193?width=600&format=jpeg&auto=webp 800w, https://i.insider.com/5e986bc5d5873a5542041193?width=600&format=jpeg&auto=webp 1080w"
                                                 sizes="(max-width: 479px) 84vw, (max-width: 767px) 43vw, (max-width: 991px) 29vw, (max-width: 1919px) 295.75px, 360.5089416503906px" class="company-feature-image" /></div>
                                         <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a382-0340374a"
                                             class="feature-content-wrapper">
-                                            <div class="feature-title">Festivals</div>
-                                            <div class="feature-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eos voluptatem aliquam laudantium pariatur, ea </div>
+                                            <div class="feature-title" style="color:#D49B0B">Share Your Joy, Double the Celebration:</div>
+                                            <div class="feature-normal"> Welcome curious guests from around the world and share the magic of your wedding with a wider audience. Let your special day be a bridge between cultures.
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -106,27 +106,29 @@
                                     <div class="values-slide-bunch">
                                         <div class="values-grid-item odd">
                                             <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a39e-0340374a" class="feature-content-wrapper odd">
-                                                <div class="feature-title">Festivals</div>
-                                                <div class="feature-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eos voluptatem aliquam laudantium pariatur, ea </div>
+                                                <div class="feature-title"style="color:#D49B0B">Tell Your Story, Showcase Your Traditions:</div>
+                                                <div class="feature-normal">CulturConnect provides a platform to share your unique wedding customs and traditions with a global audience.
+                                                </div>
                                             </div>
-                                            <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3a3-0340374a" class="feature-image-wrapper communication"><img src="https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa52e_image%20152.webp" loading="lazy" width="500" height="500" alt="" srcset="https://www.holidify.com/images/cmsuploads/compressed/Ganesh-chaturthi-l_20180403120428.jpg 500w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa52e_image%2520152-p-800.png 800w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa52e_image%20152.webp 1080w"
+                                            <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3a3-0340374a" class="feature-image-wrapper communication"><img src="https://fabriclore.com/cdn/shop/articles/blog_main_banner_1.jpg?v=1546596967&width=1024" loading="lazy" width="500" height="500" alt="" srcset="https://fabriclore.com/cdn/shop/articles/blog_main_banner_1.jpg?v=1546596967&width=1024 500w, https://fabriclore.com/cdn/shop/articles/blog_main_banner_1.jpg?v=1546596967&width=1024 800w, https://fabriclore.com/cdn/shop/articles/blog_main_banner_1.jpg?v=1546596967&width=1024 1080w"
                                                     sizes="(max-width: 479px) 84vw, (max-width: 767px) 40vw, (max-width: 991px) 27vw, (max-width: 1919px) 276.75px, 341.5089416503906px" class="company-feature-image" /></div>
                                         </div>
                                         <div class="values-grid-item">
-                                            <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3a6-0340374a" class="feature-image-wrapper ambition"><img src="https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa52f_image%20153.webp" loading="lazy" width="500" height="500" alt="" srcset="https://www.holidaymonk.com/wp-content/uploads/2022/04/Holi-Festival-of-Colors.jpg 500w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa52f_image%2520153-p-800.png 800w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa52f_image%20153.webp 1080w"
+                                            <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3a6-0340374a" class="feature-image-wrapper ambition"><img src="https://tourismnewslive.com/wp-content/uploads/2018/10/foreign_guest_at_wedding2.gif" loading="lazy" width="500" height="500" alt="" srcset="https://tourismnewslive.com/wp-content/uploads/2018/10/foreign_guest_at_wedding2.gif 500w, https://tourismnewslive.com/wp-content/uploads/2018/10/foreign_guest_at_wedding2.gif 800w, https://tourismnewslive.com/wp-content/uploads/2018/10/foreign_guest_at_wedding2.gif 1080w"
                                                     sizes="(max-width: 479px) 84vw, (max-width: 767px) 43vw, (max-width: 991px) 29vw, (max-width: 1919px) 296.75px, 361.5089416503906px" class="company-feature-image" /></div>
                                             <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3a8-0340374a"
                                                 class="feature-content-wrapper">
-                                                <div class="feature-title">Festivals</div>
-                                                <div class="feature-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eos voluptatem aliquam laudantium pariatur, ea </div>
+                                                <div class="feature-title"style="color:#D49B0B">Build Lasting Connections:</div>
+                                                <div class="feature-normal">Connect with passionate travelers eager to learn about Indian culture. These bonds can blossom into lifelong friendships and cultural exchange beyond the wedding.
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="values-grid-item odd last">
                                             <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3ae-0340374a" class="feature-content-wrapper odd">
-                                                <div class="feature-title">Festivals</div>
-                                                <div class="feature-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eos voluptatem aliquam laudantium pariatur, ea </div>
+                                                <div class="feature-title"style="color:#D49B0B">Potential Earning Opportunity (if applicable):</div>
+                                                <div class="feature-normal">Depending on your preferences, you may be able to offset wedding costs by welcoming paying guests through CulturConnect. </div>
                                             </div>
-                                            <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3b3-0340374a" class="feature-image-wrapper clarity"><img src="https://ik.imagekit.io/shortpedia/Voices/wp-content/uploads/2021/03/Indian-food.jpg" loading="lazy" width="500" height="500" alt="" srcset="https://ik.imagekit.io/shortpedia/Voices/wp-content/uploads/2021/03/Indian-food.jpg 500w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa51b_image%2520151-p-800.png 800w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa51b_image%20151.webp 1080w"
+                                            <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3b3-0340374a" class="feature-image-wrapper clarity"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1iw75Js9s-thBVOZfXr6NAB-t3o0gjRgbjW3iEORiyXIjmooR7ZH2Gdgd1QhrkMvR5RY&usqp=CAU" loading="lazy" width="500" height="500" alt="" srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1iw75Js9s-thBVOZfXr6NAB-t3o0gjRgbjW3iEORiyXIjmooR7ZH2Gdgd1QhrkMvR5RY&usqp=CAU 500w, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1iw75Js9s-thBVOZfXr6NAB-t3o0gjRgbjW3iEORiyXIjmooR7ZH2Gdgd1QhrkMvR5RY&usqp=CAU 800w, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1iw75Js9s-thBVOZfXr6NAB-t3o0gjRgbjW3iEORiyXIjmooR7ZH2Gdgd1QhrkMvR5RY&usqp=CAU 1080w"
                                                     sizes="(max-width: 479px) 84vw, (max-width: 767px) 39vw, (max-width: 991px) 26vw, (max-width: 1919px) 266.75px, 331.5089416503906px" class="company-feature-image" /></div>
                                         </div>
                                     </div>
@@ -150,9 +152,9 @@
         <div class="container">
             <div class="values-container">
                 <div class="values-content-container">
-                    <h2 class="h2">Benifits of Attandee</h2>
-                    <div class="subtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto itaque voluptates excepturi inventore tempore  <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam architecto quod <br/>processes, decision making &amp; recruiting.</div>
-                    <div class="values-cta-container">
+                    <h2 class="h2"style="color:#D49B0B">Benifits of Attendee</h2>
+                    <div class="subtext">If you're the kind of traveler that seeks out genuine cultural experiences to broaden your horizons and give you a fresh perspective, then a traditional wedding should be at the top of your list.Go beyond the guidebooks and delve into the vibrant soul of India.</div>
+                    <!-- <div class="values-cta-container">
                         <a id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a367-0340374a" href="#" target="_blank" class="cta large w-inline-block">
                             <div class="cta-text">Join Us</div>
                             <div class="cta-icon w-embed"><svg width="100%" height="100%" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -167,7 +169,7 @@
                                 <div class="cta-overlay-right green"></div>
                             </div>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
                 <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a37a-0340374a" class="values-slider-wrapper">
                     <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a37b-0340374a" class="values-slider-container">
@@ -176,12 +178,12 @@
                             <div class="values-slider-mask w-slider-mask">
                                 <div class="values-slide w-slide">
                                     <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a37f-0340374a" class="features-grid-item">
-                                        <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a380-0340374a" class="feature-image-wrapper owenership"><img src="https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa51c_image%20155.webp" loading="lazy" width="500" height="500" alt="" srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6SrtMm6KxfaT0Y7jMo9zb5_YvLRWMBc45Ng&s 500w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa51c_image%2520155-p-800.png 800w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa51c_image%20155.webp 1080w"
+                                        <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a380-0340374a" class="feature-image-wrapper owenership"><img src="https://www.maharaniweddings.com/media/gallery/16418-2014-01-06_0003.jpeg" loading="lazy" width="500" height="500" alt="" srcset="https://www.maharaniweddings.com/media/gallery/16418-2014-01-06_0003.jpeg 500w, https://www.maharaniweddings.com/media/gallery/16418-2014-01-06_0003.jpeg 800w, https://www.maharaniweddings.com/media/gallery/16418-2014-01-06_0003.jpeg 1080w"
                                                 sizes="(max-width: 479px) 84vw, (max-width: 767px) 43vw, (max-width: 991px) 29vw, (max-width: 1919px) 295.75px, 360.5089416503906px" class="company-feature-image" /></div>
                                         <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a382-0340374a"
                                             class="feature-content-wrapper">
-                                            <div class="feature-title">Festivals</div>
-                                            <div class="feature-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eos voluptatem aliquam laudantium pariatur, ea </div>
+                                            <div class="feature-title"style="color:#D49B0B">Become Part of the Family:</div>
+                                            <div class="feature-normal"> Be welcomed with open arms by a welcoming Indian family, experiencing the true spirit of "Atithi Devo Bhava". </div>
                                         </div>
                                     </div>
                                 </div>
@@ -190,27 +192,27 @@
                                     <div class="values-slide-bunch">
                                         <div class="values-grid-item odd">
                                             <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a39e-0340374a" class="feature-content-wrapper odd">
-                                                <div class="feature-title">Festivals</div>
-                                                <div class="feature-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eos voluptatem aliquam laudantium pariatur, ea </div>
+                                                <div class="feature-title"style="color:#D49B0B">Make Memories that Last a Lifetime</div>
+                                                <div class="feature-normal">Be a part of something extraordinary – a vibrant, joyous celebration filled with music, dance, rituals and delicious food. Create memories that will stay with you long after your travels. </div>
                                             </div>
-                                            <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3a3-0340374a" class="feature-image-wrapper communication"><img src="https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa52e_image%20152.webp" loading="lazy" width="500" height="500" alt="" srcset="https://www.holidify.com/images/cmsuploads/compressed/Ganesh-chaturthi-l_20180403120428.jpg 500w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa52e_image%2520152-p-800.png 800w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa52e_image%20152.webp 1080w"
+                                            <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3a3-0340374a" class="feature-image-wrapper communication"><img src="https://cdn0.weddingwire.in/article/7565/3_2/960/jpg/5657-photobooth-for-wedding-weddingnama-lead.jpeg" loading="lazy" width="500" height="500" alt="" srcset="https://cdn0.weddingwire.in/article/7565/3_2/960/jpg/5657-photobooth-for-wedding-weddingnama-lead.jpeg 500w, https://cdn0.weddingwire.in/article/7565/3_2/960/jpg/5657-photobooth-for-wedding-weddingnama-lead.jpeg 800w, https://cdn0.weddingwire.in/article/7565/3_2/960/jpg/5657-photobooth-for-wedding-weddingnama-lead.jpeg 1080w"
                                                     sizes="(max-width: 479px) 84vw, (max-width: 767px) 40vw, (max-width: 991px) 27vw, (max-width: 1919px) 276.75px, 341.5089416503906px" class="company-feature-image" /></div>
                                         </div>
                                         <div class="values-grid-item">
-                                            <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3a6-0340374a" class="feature-image-wrapper ambition"><img src="https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa52f_image%20153.webp" loading="lazy" width="500" height="500" alt="" srcset="https://www.holidaymonk.com/wp-content/uploads/2022/04/Holi-Festival-of-Colors.jpg 500w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa52f_image%2520153-p-800.png 800w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa52f_image%20153.webp 1080w"
+                                            <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3a6-0340374a" class="feature-image-wrapper ambition"><img src="https://oneindiaonepeople.com/wp-content/uploads/2022/08/Indian-culture-customs-and-traditions-have-great-significance-and-have-gained-global-popularity.jpg" loading="lazy" width="500" height="500" alt="" srcset="https://oneindiaonepeople.com/wp-content/uploads/2022/08/Indian-culture-customs-and-traditions-have-great-significance-and-have-gained-global-popularity.jpg 500w, https://oneindiaonepeople.com/wp-content/uploads/2022/08/Indian-culture-customs-and-traditions-have-great-significance-and-have-gained-global-popularity.jpg 800w, https://oneindiaonepeople.com/wp-content/uploads/2022/08/Indian-culture-customs-and-traditions-have-great-significance-and-have-gained-global-popularity.jpg 1080w"
                                                     sizes="(max-width: 479px) 84vw, (max-width: 767px) 43vw, (max-width: 991px) 29vw, (max-width: 1919px) 296.75px, 361.5089416503906px" class="company-feature-image" /></div>
                                             <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3a8-0340374a"
                                                 class="feature-content-wrapper">
-                                                <div class="feature-title">Festivals</div>
-                                                <div class="feature-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eos voluptatem aliquam laudantium pariatur, ea </div>
+                                                <div class="feature-title"style="color:#D49B0B">Learn about Indian traditions, customs, and regional variations firsthand:</div>
+                                                <div class="feature-normal">Ask questions, participate in ceremonies, and gain a deeper understanding of spiritual life </div>
                                             </div>
                                         </div>
                                         <div class="values-grid-item odd last">
                                             <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3ae-0340374a" class="feature-content-wrapper odd">
-                                                <div class="feature-title">Festivals</div>
-                                                <div class="feature-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eos voluptatem aliquam laudantium pariatur, ea </div>
+                                                <div class="feature-title"style="color:#D49B0B">Start your Indian adventure:</div>
+                                                <div class="feature-normal">with an explosion of color, joy, and cultural exchange. CulturConnect weddings set the stage for a truly unforgettable exploration of India. </div>
                                             </div>
-                                            <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3b3-0340374a" class="feature-image-wrapper clarity"><img src="https://ik.imagekit.io/shortpedia/Voices/wp-content/uploads/2021/03/Indian-food.jpg" loading="lazy" width="500" height="500" alt="" srcset="https://ik.imagekit.io/shortpedia/Voices/wp-content/uploads/2021/03/Indian-food.jpg 500w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa51b_image%2520151-p-800.png 800w, https://assets-global.website-files.com/65159e844f8f08a72cefa2aa/65159e844f8f08a72cefa51b_image%20151.webp 1080w"
+                                            <div id="w-node-_5efdc685-3366-bee9-d9b2-c2aac3d4a3b3-0340374a" class="feature-image-wrapper clarity"><img src="https://www.eventfaqs.com/Uploads/News/Content/wedding-lead5.jpg" loading="lazy" width="500" height="500" alt="" srcset="https://www.eventfaqs.com/Uploads/News/Content/wedding-lead5.jpg 500w, https://www.eventfaqs.com/Uploads/News/Content/wedding-lead5.jpg 800w, https://www.eventfaqs.com/Uploads/News/Content/wedding-lead5.jpg 1080w"
                                                     sizes="(max-width: 479px) 84vw, (max-width: 767px) 39vw, (max-width: 991px) 26vw, (max-width: 1919px) 266.75px, 331.5089416503906px" class="company-feature-image" /></div>
                                         </div>
                                     </div>
@@ -234,13 +236,13 @@
         // Function to show the About page content and hide the Join Us page content
         function showAbout() {
             document.getElementById('values1').style.display = 'block';
-            document.getElementById('values').style.display = 'none';
+            document.getElementById('values2').style.display = 'none';
         }
     
         // Function to show the Join Us page content and hide the About page content
         function showJoinUs() {
             document.getElementById('values1').style.display = 'none';
-            document.getElementById('values').style.display = 'block';
+            document.getElementById('values2').style.display = 'block';
         }
     
         // Initially showing the About page content
