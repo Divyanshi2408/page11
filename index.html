@@ -54,13 +54,22 @@
 
 <body>
     <!-- Button container for About and Join Us -->
-    <div id="buttonContainer">
-        <button class="button" style="background-image: linear-gradient(to right, #746544,#9b8149, #D49B0B); color: #ffffff; text-decoration: none;  border-radius: 5px; cursor: pointer;" onclick="showAbout()">Attendee</button>
-        <button class="button" style="background-image: linear-gradient(to right, #746544,#9b8149, #D49B0B); color: #ffffff; text-decoration: none;  border-radius: 5px; cursor: pointer;"onclick="showJoinUs()">Host</button>
+    <div id="buttonContainer" style="display: flex; justify-content: center; margin-bottom: 20px;">
+        <button class="button" style="background-image: linear-gradient(to right, #746544, #9b8149, #D49B0B); color: #ffffff; text-decoration: none; border-radius: 5px; cursor: pointer; margin-right: 10px; margin-bottom: 30px;" onclick="showAbout()">Attendee</button>
+        <button class="button" style="background-image: linear-gradient(to right, #746544, #9b8149, #D49B0B); color: #ffffff; text-decoration: none; border-radius: 5px; cursor: pointer; margin-left:1px; margin-bottom: 30px;" onclick="showJoinUs()">Host</button>
     </div>
+    <style>
+        @media (max-width: 768px) {
+            #buttonContainer {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+        
 
     <!-- About page content -->
-    <div id="values2" class="section-4 values2" >
+    <div id="values2" class="section-4 values" >
         <div class="container">
             <div class="values-container">
                 <div class="values-content-container">
